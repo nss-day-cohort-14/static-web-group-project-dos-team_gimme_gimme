@@ -29,6 +29,7 @@ footer {
   text-decoration: none;
   color: black;
 }
+.footer a:hover{color:#5AA798;}
 
 .footer ul li a.follow {
 }
