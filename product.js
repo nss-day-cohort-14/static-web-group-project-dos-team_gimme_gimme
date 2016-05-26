@@ -58,12 +58,11 @@ var productArray=[
 }]
 
 
-
-
 for(i=0; i< productArray.length; i++){
 	var card=document.getElementById("products");
 	console.log(card);
-	card.innerHTML += "<div class='product'><h2>" + productArray[i].name + "</h2>" + "<p>" + productArray[i].description + "</p>"
-	+ "<img src='" + productArray[i].url + "'" + "<p> Price: " + productArray[i].price+ "</p></div>" ;
+	card.innerHTML += "<div class='product'><div class='productName'>" + productArray[i].name + "</div>"
+	 +  "<div class='productImage'><img src='" + productArray[i].url + "'></div>" + "<div class='description'>" 
+	 + productArray[i].description + "</div>"+"<div class='price'> Price: " + productArray[i].price+ "</div></div>" ;
 }
 
