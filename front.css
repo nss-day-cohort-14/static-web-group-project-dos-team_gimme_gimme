@@ -19,8 +19,8 @@ font-family: 'Cinzel', serif;
 
 
 .image {
-	margin-left: 26%;
-
+	width:100%;
+	
 }
 
 .words {
@@ -39,5 +39,5 @@ img {
     max-width: 100%;
     height: auto;
     width: auto\9;
-    padding-top: 2em;
+    
 }
