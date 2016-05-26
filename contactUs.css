@@ -1,11 +1,42 @@
 body{
     margin: auto;
     background-image: url(http://photo.elsoar.com/wp-content/images/By-airmail-envelopes.jpg)
-    
-    
-    
+    }
 
-}
+header h1{	font-family:"Tangerine";
+			font-size:50px;
+			margin:0;
+			margin-left:2%;
+			margin-top:2%;
+			display:inline-block;}
+
+header {	background:#BCFFF2;
+			margin:0;}
+
+.navbar {	font-family:"Philosopher";
+			display:inline;
+			}
+.navbar ul {display:inline;}
+nav 		{display:inline;}
+
+.navbar li{	list-style-type:none;
+			display:inline-block;
+			font-size:20px;
+			padding-right:5%;}
+
+.navbar a{	text-decoration:none;
+			color:black;}
+.navbar a:hover{color:#5AA798;}
+
+body{		margin:0;}
+
+
+
+
+
+
+
+
 
 .getInTouch{
     font-family: Tangerine;
@@ -13,9 +44,11 @@ body{
     background-color: #BCFFF2;
     font-size: 90px;
     display: inline-block;
-    float: right;
+    width: 22.5%;
     margin: 30px;
     padding: 20px;
+    border: solid #feda52 3px;
+    border-radius: 5px;
     }
 .smitten{
     font-family: Tangerine;
@@ -23,19 +56,25 @@ body{
     color: black;
     background-color: #F3DFD7;
     display: block;
-    float: left;
+    width: 25%;
+    float: right;
     margin-top: 30px;
-    margin-left: 30px;
+    margin-right: 30px;
     padding: 10px;
+    border: solid #feda52 3px;
+    border-radius: 5px;
     
 }
 .fillThisOut{
     font-family: Philosopher;
     display: block;
-    float: left;
+    width: 40%;
     background-color: #BCFFF2;
     padding: 20px;
-    margin-top: 190px;
+    margin-top: 70px;
+    margin-left: 30px;
+    border: solid #feda52 3px;
+    border-radius: 5px;
    
     }
 
@@ -52,7 +91,8 @@ body{
     font-family: Philosopher;
     background-color: #F3DFD7;
     text-align:  center;
-    float: right;
     padding: 20px;
     margin: 20px;
+    border: solid #feda52 3px;
+    border-radius: 5px;
 }
