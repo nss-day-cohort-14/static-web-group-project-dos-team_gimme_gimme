@@ -8,6 +8,9 @@ h1.aboutHeader.meet {
   border: 2px solid #FEDA52;
   border-radius:5px; 
   padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 
 h2.cat {
@@ -32,9 +35,11 @@ h2.compHist {
 .container.about h1 {
   font-size: 48px;
   line-height: 48px;
-  letter-spacing: -1px;
+  letter-spacing: 1px;
   text-align: center;
-  margin: 30px 450px;
+  margin: 3% 10%;
+  /*margin: 30px 450px;*/
+  text-align: center;
 }
 
 
@@ -50,8 +55,10 @@ ul.bios>li {
   padding-top: 40px;
   margin-bottom: 41px;
   float: left;
-  width: 470px;
-  height: 150px;
+  width: 36.7%;
+  height: 18.75%;
+/*  width: 470px;
+  height: 150px;*/
 }
 
 ul.bios>li>a {
@@ -81,7 +88,8 @@ ul.bios li h2 {
   line-height: 31px;
   margin-bottom: 8px;
   margin-top: -5px;
-  width: 230px;
+  width: 18%;
+  /*width: 230px;*/
 }
 
 ul.bios li span.position {
@@ -103,27 +111,31 @@ ul.bios li span.text {
 
 ul.bios li .info {
   float: right;
-  width: 200px;
+  width: 60%;
 }
 
 li.cat2, li.cat4 {
-  margin-left: 130px;
+  margin-left: 9%;
 }
 
 li.cat1, li.cat3 {
-  margin-left: 43px;
+  margin-left: 5%;
 }
+
+/*li.cat1, li.cat2, li.cat3, li.cat4 {
+  padding: 0 3%;
+}*/
 
 img.worker {
   margin-left: 30px;
-  width: 200px;
+  width: 50%;
   border-radius: 100% ;
   border: 2px solid #FEDA52;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 
 .catBox {
   padding: 10px;
-/*  background-color: black;*/
 }
 
 ul.bios li {
@@ -132,6 +144,8 @@ ul.bios li {
   padding-right: 35px;
   border: 2px solid #FEDA52;
   border-radius:5px;  
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  /*width: 25%;*/
 }
 
 section.compHist {
@@ -139,7 +153,11 @@ section.compHist {
   border: 2px solid #FEDA52;
   border-radius:5px;
   background-color: #5AA798;
-  margin: 50px 70px;
+  margin: 10% 10%;
+  /*margin: 50px 70px;*/
+  width: 80%;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  /*padding: 0% 0% 0% 6%;  */
 }
 
 section p.compHistContent {
