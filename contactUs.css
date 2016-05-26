@@ -1,0 +1,58 @@
+body{
+    margin: auto;
+    background-image: url(http://photo.elsoar.com/wp-content/images/By-airmail-envelopes.jpg)
+    
+    
+    
+
+}
+
+.getInTouch{
+    font-family: Tangerine;
+    color: black;
+    background-color: #BCFFF2;
+    font-size: 90px;
+    display: inline-block;
+    float: right;
+    margin: 30px;
+    padding: 20px;
+    }
+.smitten{
+    font-family: Tangerine;
+    font-size: 60px;
+    color: black;
+    background-color: #F3DFD7;
+    display: block;
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 10px;
+    
+}
+.fillThisOut{
+    font-family: Philosopher;
+    display: block;
+    float: left;
+    background-color: #BCFFF2;
+    padding: 20px;
+    margin-top: 190px;
+   
+    }
+
+.addresses{
+    font-family: Tangerine;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    }
+
+.giftWrap{
+    
+    display: block;
+    font-family: Philosopher;
+    background-color: #F3DFD7;
+    text-align:  center;
+    float: right;
+    padding: 20px;
+    margin: 20px;
+}
