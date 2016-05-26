@@ -2,12 +2,21 @@
   box-sizing: border-box;
 }
 
-h1.meet {
+h1.aboutHeader.meet {
   font-family: 'Tangerine', cursive; 
+  background-color: #5AA798;
+  border: 2px solid #FEDA52;
+  border-radius:5px; 
+  padding: 10px;
 }
 
 h2.cat {
   font-family: 'Cinzel', serif;
+}
+
+h2.compHist {
+  text-align: center;
+  padding: 0 0;
 }
 
 .container {
@@ -25,8 +34,10 @@ h2.cat {
   line-height: 48px;
   letter-spacing: -1px;
   text-align: center;
-  margin: 35px 0 20px;
+  margin: 30px 450px;
 }
+
+
 
 ul.bios {
   list-style: none;
@@ -100,10 +111,39 @@ li.cat2, li.cat4 {
 }
 
 li.cat1, li.cat3 {
-  margin-left: 50px;
+  margin-left: 43px;
 }
 
 img.worker {
   margin-left: 30px;
   width: 200px;
+  border-radius: 100% ;
+  border: 2px solid #FEDA52;
+}
+
+.catBox {
+  padding: 10px;
+/*  background-color: black;*/
+}
+
+ul.bios li {
+  background-color: #5AA798;
+  padding-bottom: 90px;
+  padding-right: 35px;
+  border: 2px solid #FEDA52;
+  border-radius:5px;  
+}
+
+section.compHist {
+  clear:both;
+  border: 2px solid #FEDA52;
+  border-radius:5px;
+  background-color: #5AA798;
+  margin: 50px 70px;
+}
+
+section p.compHistContent {
+  margin: 10px 10px;
+  padding: 0 30px 20px 30px;
+  text-align: center;
 }
