@@ -1,0 +1,41 @@
+body {
+  margin: 0 0;
+}
+
+footer {
+    background-color: #9BF3E3;
+}
+
+.footer li {
+  display: inline-block;
+  margin: 25px 40px;
+  box-sizing: border-box;
+  font-size: 23px;
+  font-weight: bold;
+  font-family: 'Philosopher', sans-serif; 
+}
+
+.footer ul {
+  text-align: center;
+  margin-bottom: 0;
+  margin-left: -100px;
+}
+
+.footerText {
+  /*padding-bottom: 20px;*/
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer ul li a.follow {
+}
+
+.footer img {
+  max-height: 4rem;
+  max-width: 4rem;
+  margin-bottom: -20px;
+  padding-top: 15px;
+}
