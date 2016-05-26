@@ -20,8 +20,9 @@
 .description {	height:10%;
 				margin-left:10%;
 				margin-right:10%;
-
-				padding-top:35%;}
+				padding-top:35%;
+				font-style:italic;
+			}
 .price{			height:10%;
 				margin-left:10%;
 				margin-right:10%;}
@@ -35,3 +36,16 @@
 #products {		margin-left:2%;
 				margin-right:2%;	
 				margin-top:20px;}
+
+.product hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    color:#FEDA52;
+    background:#FEDA52; 
+}
+.product input[type="button"]{border: 2px solid #FEDA52;
+								float:right;}

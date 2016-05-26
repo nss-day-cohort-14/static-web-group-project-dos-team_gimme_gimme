@@ -63,6 +63,6 @@ for(i=0; i< productArray.length; i++){
 	console.log(card);
 	card.innerHTML += "<div class='product'><div class='productName'>" + productArray[i].name + "</div>"
 	 +  "<div class='productImage'><img src='" + productArray[i].url + "'></div>" + "<div class='description'>" 
-	 + productArray[i].description + "</div>"+"<div class='price'> Price: " + productArray[i].price+ "</div></div>" ;
+	 + productArray[i].description + "</div><hr>"+"<div class='price'> Price: " + productArray[i].price+ "<input type='button' value='Buy Now!'></div></div>" ;
 }
 
