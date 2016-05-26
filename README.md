@@ -62,4 +62,8 @@ The team's product page will be driven from JavaScript code. Decide on the names
 1. The team will use JavaScript to add each product to the DOM.
 1. Each product must be a card, much like everyone made in the Static Web quiz. As a team, decide on the style of the card.
 1. The layout of the product page should be a grid of cards. 3-wide, 4-wide, 5-wide, the teams must decide how many cards are on each row.
+2.
+
+## TEST IT OUT! ^.^
+https://rawgit.com/nss-day-cohort-14/static-web-group-project-dos-team_gimme_gimme/master/index.html
 
