@@ -1,11 +1,13 @@
 .product {		width:30%;
 				display:inline-block;
-				border:2px solid gray;
+				border: 2px solid #FEDA52;
 				border-radius:5px;
-				box-shadow:5px 5px 5px rgba(0,0,0,0.2);
+				box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 				height:400px;
 				margin:1%;
-				margin-top:0;}
+				margin-top:0;
+				background:#5AA798;
+				font-family:"Philosopher";}
 
 .product img {	width:75%;
 				padding-left:10%;
@@ -16,13 +18,20 @@
 .productImage {	height:25%;}
 
 .description {	height:10%;
+				margin-left:10%;
+				margin-right:10%;
 
 				padding-top:35%;}
-.price{			height:10%;}
+.price{			height:10%;
+				margin-left:10%;
+				margin-right:10%;}
 
 .productName{	height:10%;
 				font-size:24px;
-				text-align:center;}
+				text-align:center;
+				margin-top:5%;
+				font-weight:bold;}
 
 #products {		margin-left:2%;
-				margin-right:2%;}
+				margin-right:2%;	
+				margin-top:20px;}
