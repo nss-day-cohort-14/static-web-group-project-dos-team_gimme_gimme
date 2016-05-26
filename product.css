@@ -10,9 +10,11 @@
 				font-family:"Philosopher";}
 
 .product img {	width:75%;
-				padding-left:10%;
-				padding-right:10%;
-				padding-bottom:10%;}
+				margin-left:10%;
+				margin-right:10%;
+				margin-bottom:10%;
+				border: 2px solid #FEDA52;
+				border-radius:5px;}
 
 
 .productImage {	height:25%;}
