@@ -20,7 +20,7 @@ font-family: 'Cinzel', serif;
 
 .image {
 	margin-left: 26%;
-	box-shadow: 23;
+
 }
 
 .words {
@@ -31,4 +31,13 @@ font-family: 'Cinzel', serif;
 	padding-right: 12%;
 	padding-left: 12%;
 	border: 2px solid black;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+    padding-top: 2em;
 }
