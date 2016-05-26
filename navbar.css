@@ -1,0 +1,26 @@
+header h1{	font-family:"Tangerine";
+			font-size:50px;
+			margin:0;
+			margin-left:2%;
+			margin-top:2%;
+			display:inline-block;}
+
+header {	background:#BCFFF2;
+			margin:0;}
+
+.navbar {	font-family:"Philosopher";
+			display:inline;
+			}
+.navbar ul {display:inline;}
+nav 		{display:inline;}
+
+.navbar li{	list-style-type:none;
+			display:inline-block;
+			font-size:20px;
+			padding-right:5%;}
+
+.navbar a{	text-decoration:none;
+			color:black;}
+.navbar a:hover{color:#5AA798;}
+
+body{		margin:0;}
